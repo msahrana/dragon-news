@@ -3,7 +3,11 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: '"Poppins", sans-serif', // Adds a new `font-display` class
+      },
+    },
   },
   plugins: [],
 });
