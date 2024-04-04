@@ -1,3 +1,4 @@
+import {Typography} from "@material-tailwind/react";
 import BreakingNews from "../../components/BreakingNews/BreakingNews";
 import LeftSideBar from "../../shared/LeftSideBar/LeftSideBar";
 import RightSideBar from "../../shared/RightSideBar/RightSideBar";
@@ -11,7 +12,7 @@ const Home = () => {
           <LeftSideBar></LeftSideBar>
         </div>
         <div className="md:col-span-2 border">
-          <h1 className="text-3xl font-poppins">News Coming Soon...</h1>
+          <Typography variant="h2">News Coming Soon...</Typography>
         </div>
         <div className="border">
           <RightSideBar></RightSideBar>
